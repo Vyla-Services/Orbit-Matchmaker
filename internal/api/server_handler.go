@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"orbit/internal/server"
-	"orbit/pkg/models"
+	"internal/server"
+	"pkg/models"
 )
 
 func serverRegisterHandler(pool *server.Pool) http.Handler {

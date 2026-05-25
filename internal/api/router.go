@@ -3,9 +3,9 @@ package api
 import (
 	"net/http"
 
-	"orbit/internal/queue"
-	"orbit/internal/server"
-	"orbit/internal/session"
+	"internal/queue"
+	"internal/server"
+	"internal/session"
 )
 
 func RegisterRoutes(mux *http.ServeMux, q *queue.Queue, s *session.Store, pool *server.Pool) {

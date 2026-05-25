@@ -6,12 +6,12 @@ import (
 	"os"
 	"time"
 
+	"internal/api"
+	"internal/matchloop"
+	"internal/queue"
+	"internal/server"
+	"internal/session"
 	"orbit/config"
-	"orbit/internal/api"
-	"orbit/internal/matchloop"
-	"orbit/internal/queue"
-	"orbit/internal/server"
-	"orbit/internal/session"
 )
 
 func main() {

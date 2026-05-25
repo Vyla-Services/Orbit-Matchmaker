@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"orbit/internal/session"
+	"internal/session"
 )
 
 func sessionHandler(s *session.Store) http.Handler {
